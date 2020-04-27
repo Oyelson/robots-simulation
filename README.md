@@ -15,32 +15,33 @@ direction of motion. The illustrations below show the robot's position
 (indicated by a black dot) as well as its direction (indicated by the direction
 of the red arrowhead).
 
+---
 ![robot position at t=0][t = 0]
 **Time t = 0**
 The robot starts at the position (2.1, 2.2) with an angle of 205 degrees
 (measured clockwise from "north"). The tile that it is on is now clean.
-
+---
 ![robot position at t=1][t = 1]
 **t = 1**
 The robot has moved 1 unit in the direction it was facing, to the position
 (1.7, 1.3), cleaning another tile.
-
+---
 ![robot position at t=2][t = 2]
 **t = 2**
 The robot has moved 1 unit in the same direction (205 degrees from north),
 to the position (1.2, 0.4), cleaning another tile.
-
+---
 ![robot position at t=3][t = 3]
 **t = 3**
 The robot could not have moved another unit in the same direction without
 hitting the wall, so instead it turns to face in a new, random direction,
 287 degrees.
-
+---
 ![robot position at t=4][t = 4]
 **t = 4**
 The robot moves along its new direction to the position (0.3, 0.7), cleaning
 another tile.
-
+---
 
 [t = 0]: https://courses.edx.org/assets/courseware/v1/a9599c894201ed96d8cd6d1afd778a62/asset-v1:MITx+6.00.2x+3T2017+type@asset+block/files_ps07_files_screen1.png "Robot pos. at t=0"
 [t = 1]: https://courses.edx.org/assets/courseware/v1/178f80c0f5724973720aba89faa741a3/asset-v1:MITx+6.00.2x+3T2017+type@asset+block/files_ps07_files_screen2.png "Robot pos. at t=1"
