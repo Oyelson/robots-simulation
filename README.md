@@ -14,7 +14,7 @@ The robot starts out at some random position in the room, and with a random
 direction of motion. The illustrations below show the robot's position
 (indicated by a black dot) as well as its direction (indicated by the direction
 of the red arrowhead).
-
+```
 ![robot position at t=0][t = 0]
 **Time t = 0**
 The robot starts at the position (2.1, 2.2) with an angle of 205 degrees
@@ -40,7 +40,7 @@ hitting the wall, so instead it turns to face in a new, random direction,
 **t = 4**
 The robot moves along its new direction to the position (0.3, 0.7), cleaning
 another tile.
-
+```
 
 [t = 0]: https://courses.edx.org/assets/courseware/v1/a9599c894201ed96d8cd6d1afd778a62/asset-v1:MITx+6.00.2x+3T2017+type@asset+block/files_ps07_files_screen1.png "Robot pos. at t=0"
 [t = 1]: https://courses.edx.org/assets/courseware/v1/178f80c0f5724973720aba89faa741a3/asset-v1:MITx+6.00.2x+3T2017+type@asset+block/files_ps07_files_screen2.png "Robot pos. at t=1"
