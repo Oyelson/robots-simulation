@@ -17,28 +17,28 @@ of the red arrowhead).
 
 ---
 ![robot position at t=0][t = 0]
-**Time t = 0**
+ **Time t = 0**  
 The robot starts at the position (2.1, 2.2) with an angle of 205 degrees
 (measured clockwise from "north"). The tile that it is on is now clean.
 ---
 ![robot position at t=1][t = 1]
-**t = 1**
+ **t = 1**  
 The robot has moved 1 unit in the direction it was facing, to the position
 (1.7, 1.3), cleaning another tile.
 ---
 ![robot position at t=2][t = 2]
-**t = 2**
+ **t = 2**  
 The robot has moved 1 unit in the same direction (205 degrees from north),
 to the position (1.2, 0.4), cleaning another tile.
 ---
 ![robot position at t=3][t = 3]
-**t = 3**
+ **t = 3**  
 The robot could not have moved another unit in the same direction without
 hitting the wall, so instead it turns to face in a new, random direction,
 287 degrees.
 ---
 ![robot position at t=4][t = 4]
-**t = 4**
+ **t = 4**  
 The robot moves along its new direction to the position (0.3, 0.7), cleaning
 another tile.
 ---
